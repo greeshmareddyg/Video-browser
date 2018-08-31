@@ -1,0 +1,20 @@
+.page {
+    margin: 10px;
+    padding-top: 10%;
+    width: 100%;
+    
+}
+#Home{
+    background-image: url("http://www.intrawallpaper.com/static/images/gradient-background.jpg");
+}
+body {
+    overflow-x: hidden;
+}
+.youtube
+{
+	padding-top: 5%
+}
+#Youtube
+{
+	background-color: pink;
+}

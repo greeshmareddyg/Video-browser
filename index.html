@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>GGR browser</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">  
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Greeshma Reddy</a>
+    </div>
+     <div class="collapse navbar-collapse" id="myNavbar">
+    <ul class="nav navbar-nav">
+      <li class="active"><a href="#Home">Home</a></li>
+      <li><a href="#Youtube">Youtube Search</a></li>
+      <li><a href="#About">About</a></li>
+      <li><a href="#Contact">Contact Me</a></li>
+    </ul>
+    <form class="navbar-form navbar-right" role="search">
+        <div class="form-group">
+            <input type="email" class="form-control" name="email" placeholder="Email">
+        </div>
+        <div class="form-group">
+            <input type="password" class="form-control" name="password" placeholder="Password">
+        </div>
+        <button type="submit" class="btn btn-success">Log In</button>
+    </form>
+    </div>
+  </div>
+</nav>
+<div class="page text-center" id="Home">
+  <div class="jumbotron" style="background:transparent">
+    <h2><strong>Welcome to The New Website</strong></h2><br>
+    <h4>The website of New Searches and Links</h4> <br>
+    <h5>The dream website to search YouTube Links Here. The Website will help you prepare for the real music.</h5><br>
+    <h5><strong>Log In ! To find out More...</strong></h5><br>
+    <div class="input-group">
+        
+    </div>
+    <div class="row">
+    <div class="col-lg-8 col-lg-offset-2">
+        <div class="input-group">
+            <span class="input-group-addon glyphicon glyphicon-envelope"></span>
+            <input type="email" class="form-control" placeholder="Your Email"/>
+        </div>
+    </div>
+    </div><br>
+    <button type="submit" class="btn btn-success">Submit</button>
+  </div>
+</div>
+
+
+<div class=" page text-center" id="Youtube">
+<h1>Search YouTube</h1>
+    <div class="form-group col-lg-8 col-lg-offset-2">
+            <input type="text" class="form-control" id="searchTerm" placeholder="Search your Need"><br>
+            <button type="submit" class="btn btn-success" id="search">Search</button>
+        </div>
+        <div id="data" class="text-center col-lg-8 col-lg-offset-2"></div>
+
+
+</div>
+<div class="container">
+
+<div class="page text-center" id="About">
+    <h2><strong>Why This Website Is Awesome!</strong></h2>
+    <p>Summary of the apps awesomeness.</p>
+    <div class="row">
+    <div id="grid1" class="col-sm-4">
+        <h2><strong>Create</strong></h2>
+        <p class="text-justify">A brief description of one of the best features of your app. Maybe a little more text. A brief description of one of the best features of your app. Maybe a little more text. </p>   
+        <button type="submit" class="btn btn-success">create</button>     
+    </div>
+    <div id="grid2" class="col-sm-4">
+        <h2><strong>Delete</strong></h2>
+        <p class="text-justify">A brief description of one of the best features of your app. Maybe a little more text. A brief description of one of the best features of your app. Maybe a little more text. </p>        
+        <button type="submit" class="btn btn-success">delete</button>
+    </div>
+    <div id="grid3" class="col-sm-4">
+        <h2><strong>Update</strong></h2>
+        <p class="text-justify">A brief description of one of the best features of your app. Maybe a little more text. A brief description of one of the best features of your app. Maybe a little more text. </p>        
+        <button type="submit" class="btn btn-success">update</button>
+    </div>
+    </div> <!--row-->
+</div>
+</div>
+<div class="page text-center" id="Contact">
+    <h2><strong>Contact Me!</strong></h2>
+    <h2>Phone: +1(848)-218-6114</h2>
+    <h3>Email: greeshmareddy.ggr@gmail.com</h3>
+</div>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<script type="text/javascript">
+        vph = $(window).height();
+        $('.page').height(vph);
+</script>
+<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
